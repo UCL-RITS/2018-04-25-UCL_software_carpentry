@@ -13,7 +13,7 @@ enddate: 2018-04-26
 instructor: ["Martha Robinson", "Roland Guichard", "Stuart Grieve", "Vilma Agalioti"]
 helper: ["Anastasis Georgoulas", "Dave Wright", "Jonathan Cooper", "Sanaz Jabbari", "Stef Piatek"]
 email: ["rc-softdev@ucl.ac.uk"]
-collaborative_notes: "http://pad.software-carpentry.org/2018-04-25-UCL_software_carpentry"
+collaborative_notes: "files/etherpad.html"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}

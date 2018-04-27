@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>2018-04-25-UCL_software_carpentry</title>
+<meta name="generator" content="Etherpad">
+<meta name="author" content="Etherpad">
+<meta name="changedby" content="Etherpad">
+<meta charset="utf-8">
+<style>
+* {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+}
+ul.indent {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+body > ol {
+  counter-reset: first second third fourth fifth sixth seventh eigth ninth tenth eleventh twelth thirteenth fourteenth fifteenth sixteenth;
+}
+ol > li:before {
+  content: counter(first) ". ";
+  counter-increment: first;
+}
+ol > ol > li:before {
+  content: counter(first) "." counter(second) ". ";
+  counter-increment: second;
+}
+ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) ". ";
+  counter-increment: third;
+}
+ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) ". ";
+  counter-increment: fourth;
+}
+ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) ". ";
+  counter-increment: fifth;
+}
+ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) ". ";
+  counter-increment: sixth;
+}
+ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) ". ";
+  counter-increment: seventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) ". ";
+  counter-increment: eigth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) ". ";
+  counter-increment: ninth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) ". ";
+  counter-increment: tenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) ". ";
+  counter-increment: eleventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) ". ";
+  counter-increment: twelth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) ". ";
+  counter-increment: thirteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) ". ";
+  counter-increment: fourteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) ". ";
+  counter-increment: fifteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) "." counter(sixthteenth) ". ";
+  counter-increment: sixthteenth;
+}
+ol {
+  text-indent: 0px;
+}
+ol > ol {
+  text-indent: 10px;
+}
+ol > ol > ol {
+  text-indent: 20px;
+}
+ol > ol > ol > ol {
+  text-indent: 30px;
+}
+ol > ol > ol > ol > ol {
+  text-indent: 40px;
+}
+ol > ol > ol > ol > ol > ol {
+  text-indent: 50px;
+}
+ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 60px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 70px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 80px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 90px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 100px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 110px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 120px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 130px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 140px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 150px;
+}
+
+</style>
+</head>
+<body>
+<strong><u>Welcome to Software Carpentry Etherpad!</u></strong><br><br>This pad is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents.<br><br>Use of this service is restricted to members of the Software Carpentry and Data Carpentry community; this is not for general purpose use (for that, try etherpad.wikimedia.org).<br><br>Users are expected to follow our code of conduct: <a href="http&#x3a;&#x2F;&#x2F;software&#x2d;carpentry&#x2e;org&#x2F;conduct&#x2e;html">http:&#x2F;&#x2F;software-carpentry.org&#x2F;conduct.html</a><br><br>All content is publicly available under the Creative Commons Attribution License: <a href="https&#x3a;&#x2F;&#x2F;creativecommons&#x2e;org&#x2F;licenses&#x2F;by&#x2F;4&#x2e;0&#x2F;">https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by&#x2F;4.0&#x2F;</a><br><br>UCL Research programming hub: <a href="https&#x3a;&#x2F;&#x2F;www&#x2e;ucl&#x2e;ac&#x2e;uk&#x2F;research&#x2d;it&#x2d;services&#x2F;research&#x2d;it&#x2d;services&#x2F;research&#x2d;software&#x2d;development&#x2F;programming&#x2d;hub">https:&#x2F;&#x2F;www.ucl.ac.uk&#x2F;research-it-services&#x2F;research-it-services&#x2F;research-software-development&#x2F;programming-hub</a><br><br>post-workshop survey in <a href="http&#x3a;&#x2F;&#x2F;rits&#x2e;github&#x2d;pages&#x2e;ucl&#x2e;ac&#x2e;uk&#x2F;2018&#x2d;04&#x2d;25&#x2d;UCL&#x5f;software&#x5f;carpentry&#x2F;">http:&#x2F;&#x2F;rits.github-pages.ucl.ac.uk&#x2F;2018-04-25-UCL_software_carpentry&#x2F;</a><br><br><strong><u>Python session</u></strong><br><br>Remember to login to Socrative - <a href="https&#x3a;&#x2F;&#x2F;b&#x2e;socrative&#x2e;com&#x2F;login&#x2F;student&#x2F;">https:&#x2F;&#x2F;b.socrative.com&#x2F;login&#x2F;student&#x2F;</a> - room name: RITS&nbsp;<br><br>Go here for setup instructions: <a href="http&#x3a;&#x2F;&#x2F;swcarpentry&#x2e;github&#x2e;io&#x2F;python&#x2d;novice&#x2d;inflammation&#x2F;setup&#x2F;">http:&#x2F;&#x2F;swcarpentry.github.io&#x2F;python-novice-inflammation&#x2F;setup&#x2F;</a><br>here for a glossary of the concepts I will be talking about: <a href="http&#x3a;&#x2F;&#x2F;swcarpentry&#x2e;github&#x2e;io&#x2F;python&#x2d;novice&#x2d;inflammation&#x2F;reference">http:&#x2F;&#x2F;swcarpentry.github.io&#x2F;python-novice-inflammation&#x2F;reference</a><br>and here to follow the notes: <a href="http&#x3a;&#x2F;&#x2F;swcarpentry&#x2e;github&#x2e;io&#x2F;python&#x2d;novice&#x2d;inflammation&#x2F;">http:&#x2F;&#x2F;swcarpentry.github.io&#x2F;python-novice-inflammation&#x2F;</a><br><br>In Jupyter notebook, to execute code in a cell ==&gt; &lt;shift&gt; &lt;enter&gt;<br>To get list of functions in a library ==&gt; &lt;libname&gt;. and then press &lt;tab&gt;<br>(eg. numpy.&nbsp; and then &lt;tab&gt;)<br><br>For programming help&#x2F;questions: <a href="https&#x3a;&#x2F;&#x2F;stackoverflow&#x2e;com&#x2F;">https:&#x2F;&#x2F;stackoverflow.com&#x2F;</a><br><br>Additional data types:<br>dictionaries: { key1 : value1, key2 : value2, .... }<br><ul class="indent"><li>eg. my_dict = {&quot;Monday&quot; : &quot;Sucks&quot;, &quot;Tuesday&quot; : &quot;A bit better&quot;, &quot;Friday&quot; : &quot;Yeay!&quot;}</li></ul><br>Helpful website <a href="https&#x3a;&#x2F;&#x2F;www&#x2e;tutorialspoint&#x2e;com&#x2F;python&#x2F;python&#x5f;strings&#x2e;htm">https:&#x2F;&#x2F;www.tutorialspoint.com&#x2F;python&#x2F;python_strings.htm</a><br><br><strong><u>Git session</u></strong><br><br>Remember to login to Socrative - <a href="https&#x3a;&#x2F;&#x2F;b&#x2e;socrative&#x2e;com&#x2F;login&#x2F;student&#x2F;">https:&#x2F;&#x2F;b.socrative.com&#x2F;login&#x2F;student&#x2F;</a> - room name: RITS<br><br><strong>Hints</strong><br><ul class="bullet"><li>To exit paginated output, press q . To go to the next page, press space. You can also move up and down with the arrow keys.</li><li>If for any reason you find yourself in the vi editor, type the escape key, followed by :q! (colon, lower-case &#x27;q&#x27;, exclamation mark), then hitting Return to return to the shell.</li></ul><br><strong>Links &amp; Resources</strong><br><br>The software carpentry lesson this was based on: <a href="http&#x3a;&#x2F;&#x2F;swcarpentry&#x2e;github&#x2e;io&#x2F;git&#x2d;novice&#x2F;">http:&#x2F;&#x2F;swcarpentry.github.io&#x2F;git-novice&#x2F;</a><br><br>Guidelines for a (subjectively!) good commit message: <a href="https&#x3a;&#x2F;&#x2F;chris&#x2e;beams&#x2e;io&#x2F;posts&#x2F;git&#x2d;commit&#x2F;">https:&#x2F;&#x2F;chris.beams.io&#x2F;posts&#x2F;git-commit&#x2F;</a><br><br>Advanced use of &#x27;git add&#x27;:<br>&nbsp;&nbsp;&nbsp; &#x27;git add -u&#x27; stages the working copy versions of all files being tracked by git<br>&nbsp;&nbsp;&nbsp; &#x27;git add -p&#x27; takes you through each change in turn interactively and asks whether to stage it<br>&nbsp;&nbsp;&nbsp; Both of these can also take file&#x2F;folder name arguments, so you can do e.g. &#x27;git add -u chapter1&#x2F;&#x27; to stage only modified files in the chap<br>ter1 folder<br><br>More learning resources:<br>&nbsp;* <a href="http&#x3a;&#x2F;&#x2F;marklodato&#x2e;github&#x2e;io&#x2F;visual&#x2d;git&#x2d;guide&#x2F;index&#x2d;en&#x2e;html">http:&#x2F;&#x2F;marklodato.github.io&#x2F;visual-git-guide&#x2F;index-en.html</a>&nbsp; (Visual Git Reference - pictorial representations of what Git commands do)<br>&nbsp;* Tips (and rationale) for good commit messages:<br>&nbsp;&nbsp;&nbsp;&nbsp; * <a href="https&#x3a;&#x2F;&#x2F;chris&#x2e;beams&#x2e;io&#x2F;posts&#x2F;git&#x2d;commit&#x2F;">https:&#x2F;&#x2F;chris.beams.io&#x2F;posts&#x2F;git-commit&#x2F;</a><br>&nbsp;&nbsp;&nbsp;&nbsp; * <a href="http&#x3a;&#x2F;&#x2F;tbaggery&#x2e;com&#x2F;2008&#x2F;04&#x2F;19&#x2F;a&#x2d;note&#x2d;about&#x2d;git&#x2d;commit&#x2d;messages&#x2e;html">http:&#x2F;&#x2F;tbaggery.com&#x2F;2008&#x2F;04&#x2F;19&#x2F;a-note-about-git-commit-messages.html</a><br>&nbsp;* <a href="https&#x3a;&#x2F;&#x2F;help&#x2e;github&#x2e;com&#x2F;categories&#x2F;collaborating&#x2d;with&#x2d;issues&#x2d;and&#x2d;pull&#x2d;requests&#x2F;">https:&#x2F;&#x2F;help.github.com&#x2F;categories&#x2F;collaborating-with-issues-and-pull-requests&#x2F;</a>&nbsp; (Collaborating using GitHub)<br>&nbsp;* <a href="http&#x3a;&#x2F;&#x2F;learngitbranching&#x2e;js&#x2e;org&#x2F;&#x3f;demo">http:&#x2F;&#x2F;learngitbranching.js.org&#x2F;?demo</a><br>&nbsp;* <a href="http&#x3a;&#x2F;&#x2F;sethrobertson&#x2e;github&#x2e;io&#x2F;GitFixUm&#x2F;fixup&#x2e;html">http:&#x2F;&#x2F;sethrobertson.github.io&#x2F;GitFixUm&#x2F;fixup.html</a>&nbsp; (On undoing, fixing, or removing commits in git)<br>&nbsp;* <a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;jlord&#x2F;git&#x2d;it&#x2d;electron">https:&#x2F;&#x2F;github.com&#x2F;jlord&#x2F;git-it-electron</a>&nbsp; (A desktop app that teaches you how to use git and GitHub on the command line)<br>&nbsp;* <a href="https&#x3a;&#x2F;&#x2F;presentate&#x2e;com&#x2F;bobthecow&#x2F;talks&#x2F;changing&#x2d;history">https:&#x2F;&#x2F;presentate.com&#x2F;bobthecow&#x2F;talks&#x2F;changing-history</a>&nbsp; (General lessons for using git in open source projects)<br><br>Useful tools:<br>&nbsp;* Graphical interfaces: <a href="https&#x3a;&#x2F;&#x2F;git&#x2d;scm&#x2e;com&#x2F;downloads&#x2F;guis">https:&#x2F;&#x2F;git-scm.com&#x2F;downloads&#x2F;guis</a><br>&nbsp;* Diff&#x2F;merge tools: <a href="https&#x3a;&#x2F;&#x2F;sourcegear&#x2e;com&#x2F;diffmerge&#x2F;">https:&#x2F;&#x2F;sourcegear.com&#x2F;diffmerge&#x2F;</a><br>&nbsp;&nbsp; (but there are many and git asks you what to use)<br><br>Using Word files with git:<br>&nbsp;* <a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;vigente&#x2F;gerardus&#x2F;wiki&#x2F;Integrate&#x2d;git&#x2d;diffs&#x2d;with&#x2d;word&#x2d;docx&#x2d;files">https:&#x2F;&#x2F;github.com&#x2F;vigente&#x2F;gerardus&#x2F;wiki&#x2F;Integrate-git-diffs-with-word-docx-files</a><br>&nbsp;* <a href="http&#x3a;&#x2F;&#x2F;ben&#x2e;balter&#x2e;com&#x2F;2015&#x2F;02&#x2F;06&#x2F;word&#x2d;diff&#x2F;">http:&#x2F;&#x2F;ben.balter.com&#x2F;2015&#x2F;02&#x2F;06&#x2F;word-diff&#x2F;</a><br><br>Excel seems to be a bit more complicated, but various people have solutions:<br>&nbsp;* <a href="http&#x3a;&#x2F;&#x2F;programmaticallyspeaking&#x2e;com&#x2F;git&#x2d;diffing&#x2d;excel&#x2d;files&#x2e;html">http:&#x2F;&#x2F;programmaticallyspeaking.com&#x2F;git-diffing-excel-files.html</a><br>&nbsp;* <a href="https&#x3a;&#x2F;&#x2F;wiki&#x2e;ucl&#x2e;ac&#x2e;uk&#x2F;display&#x2F;&#x7e;ucftpw2&#x2F;2013&#x2F;10&#x2F;18&#x2F;Using&#x2b;git&#x2b;for&#x2b;version&#x2b;control&#x2b;of&#x2b;spreadsheet&#x2b;models&#x2b;&#x2d;&#x2b;part&#x2b;1&#x2b;of&#x2b;3">https:&#x2F;&#x2F;wiki.ucl.ac.uk&#x2F;display&#x2F;~ucftpw2&#x2F;2013&#x2F;10&#x2F;18&#x2F;Using+git+for+version+control+of+spreadsheet+models+-+part+1+of+3</a> (by a former UCL student)<br>&nbsp;* <a href="http&#x3a;&#x2F;&#x2F;stackoverflow&#x2e;com&#x2F;questions&#x2F;17083502&#x2F;how&#x2d;to&#x2d;perform&#x2d;better&#x2d;document&#x2d;version&#x2d;control&#x2d;on&#x2d;excel&#x2d;files&#x2d;and&#x2d;sql&#x2d;schema&#x2d;fil">http:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;17083502&#x2F;how-to-perform-better-document-version-control-on-excel-files-and-sql-schema-fil</a><br>&nbsp;* <a href="https&#x3a;&#x2F;&#x2F;xltools&#x2e;net&#x2F;excel&#x2d;version&#x2d;control&#x2F;">https:&#x2F;&#x2F;xltools.net&#x2F;excel-version-control&#x2F;</a> (paid-for product)<br><br>Other options for conflict resolution:<br>&nbsp;&nbsp;&nbsp; git checkout --theirs -- path&#x2F;to&#x2F;conflicted-file.txt<br>&nbsp;&nbsp;&nbsp; git checkout --ours -- path&#x2F;to&#x2F;conflicted-file.txt<br>&nbsp;&nbsp;&nbsp; See `git checkout --help` for more!<br><br><strong><u>Shell session</u></strong><br><br><strong>Setup</strong><br><ul class="bullet"><li>Please make sure you have followed the setup instructions at <a href="http&#x3a;&#x2F;&#x2F;rits&#x2e;github&#x2d;pages&#x2e;ucl&#x2e;ac&#x2e;uk&#x2F;2018&#x2d;04&#x2d;25&#x2d;UCL&#x5f;software&#x5f;carpentry&#x2F;">http:&#x2F;&#x2F;rits.github-pages.ucl.ac.uk&#x2F;2018-04-25-UCL_software_carpentry&#x2F;</a></li><li>Please go to <a href="http&#x3a;&#x2F;&#x2F;swcarpentry&#x2e;github&#x2e;io&#x2F;shell&#x2d;novice&#x2F;setup&#x2e;html">http:&#x2F;&#x2F;swcarpentry.github.io&#x2F;shell-novice&#x2F;setup.html</a> and <strong>download data-shell.zip, move it to your Desktop, and unzip it</strong></li><li>Please join the Socrative classroom at www.socrative.com and siging in as a student. The room name is RITS.</li></ul><br><br>whoami ==&gt; tells you who you are as a user<br><br>pwd (present working directory) ==&gt; where you are in the file directory structure<br><br>ls (listing) ==&gt; what&#x27;s in pwd<br><br>ls -F ==&gt; same output as before but folder names end with a &#x2F;<br><br>man ls (or ls --help) ==&gt; manual page for the ls command<br>exiting paginated content (eg. in man) ==&gt; q<br><br><br>ls -F &lt;directory name or directory path&gt; ==&gt; same output from the directory specified<br><br>cd &lt;directory path&gt; ==&gt; change directory to the specified location<br><br>cd .. ==&gt; moves to the next level up in the directory tree<br><br>ls -F -a ==&gt; lists every directory with a trailing &#x2F; (-F) and the hidden files (-a)<br><br>cd ==&gt; takes you back to your &#x2F;home directory<br><br>cd &#x2F;home&#x2F;&lt;your name&gt;&#x2F;Desktop ==&gt; takes you to the specified directory with the absolute path<br><br>clear ==&gt; clears your screen<br><br>mkdir &lt;directory name&gt; ==&gt; makes a directory<br><br>nano &lt;file name&gt; ==&gt; creates&#x2F;edits a file using nano<br><br>^ ==&gt; the control key (ctrl) in nano<br><br>rm &lt;file name&gt; ==&gt; removes file !!!<br><br>rm -r &lt;directory name&gt; ==&gt; removes recursively<br><br>rm -r -i &lt;directory name&gt; ==&gt; removes recursively and interactively (ask for permission to remove)<br>answer to -i ==&gt; y for yes, n for no<br><br>mv &lt;origin file path&gt; &lt;final location path&gt; ==&gt; moves a file from a location to another (also used for renaming)<br><br>cat &lt;file name&gt; ==&gt; catalogues a file, shows its content<br><br>cp &lt;origin file name&gt; &lt;final file path&gt; ==&gt; copies file from a location to another<br><br>wc &lt;file name&gt; ==&gt; word counts in a file name | lines | words | characters |<br><br>* ==&gt; is a wildcard which stands for &quot;any character of any number&quot;<br><br>? ==&gt; is a wildcard which stands for &quot;any character but <strong>one</strong> character&quot;<br><br>wc -l ==&gt; word counts the number of lines (-w for words)<br><br>&lt;command&gt; &gt; &lt;file name&gt; ==&gt; redirects the output to a file<br><br>&lt;tab&gt; ==&gt; auto-completes command or filename<br><br>sort -n &lt;file name&gt; ==&gt; sorts numerically (rather than alphabetically) the contents of a file<br><br>head -n &lt;integer&gt; &lt;file name&gt;==&gt; picks out the first &lt;integer&gt; lines of the file<br><br>tail -n &lt;integer&gt; &lt;file name&gt; ==&gt; takes the last &lt;integer&gt; lines of the file<br><br>echo &lt;message&gt; ==&gt; prints out the message on the screen<br><br>&nbsp;&lt;command1&gt; | &lt; command2&gt;==&gt; pipes (chains) commands together, passes the output&nbsp;<br>&nbsp;of command1 as input for command2<br>&nbsp;<br>for &lt;command&gt; ==&gt; begin marker of a for loop<br>do &lt;command&gt; ==&gt; executes the command<br>done ==&gt; end marker of the loop<br><br>&lt;ctrl&gt;c ==&gt; terminate a process&#x2F;exit from a confusing state (eg. inside a for loop, some other non-prompt state...)<br><br>bash &lt;shell script&gt; ==&gt; executes the shell script<br><br><br><br><br><br><br><br>
+</body>
+</html>
